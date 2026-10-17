@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 mrptool contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+关于样本文件 / About sample files
+
+本许可证仅覆盖 mrptool 自身的代码与文档。
+
+samples/ 目录下的 .mrp 文件是第三方应用与游戏,其全部权利归各自权利人
+所有,不适用上述 MIT 许可。请勿将其用于商业用途或再分发。
+
+The MIT license above covers only the mrptool source code and documentation.
+
+The .mrp files under samples/ are third-party applications and games; all
+rights belong to their respective owners and are NOT covered by the MIT
+license. Do not redistribute them or use them commercially.
+
+本项目的目的是数字遗产保存与技术研究。
+This project exists for digital preservation and technical research.

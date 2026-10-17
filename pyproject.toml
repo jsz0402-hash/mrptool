@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mrptool"
+version = "0.1.0"
+description = "斯凯 MRP / Mythroad 平台逆向工具 —— 解开那些 299 块山寨机上的记忆"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["mrp", "mythroad", "skymobi", "lua", "reverse-engineering", "digital-preservation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Disassemblers",
+    "Topic :: System :: Emulators",
+]
+
+[project.optional-dependencies]
+ext = ["capstone>=5.0"]
+
+[project.scripts]
+mrptool = "mrptool.cli:main"
+
+[tool.setuptools]
+packages = ["mrptool"]
