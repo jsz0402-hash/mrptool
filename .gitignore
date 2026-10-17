@@ -1,0 +1,43 @@
+# 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 打包产物
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ---------------------------------------------------------------
+# 样本文件【重要】
+#
+# samples/ 里的 .mrp 是第三方游戏/应用,版权归各自权利人所有,
+# 不适合随本项目一起分发。请用 tools/get_samples.py 自行下载。
+#
+# 本仓库自带的 helloworld.mrp / mr.mrp 是公开的测试样本,
+# 已用 ! 规则单独放行。
+# ---------------------------------------------------------------
+samples/**
+!samples/helloworld.mrp
+!samples/mr.mrp
+!samples/asm.mrp
+!samples/README.md
+
+# 工具的转储输出
+*_转储/
+*_解包/
+*_dump/
+*_out/
+_demo/
